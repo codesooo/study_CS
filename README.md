@@ -25,7 +25,6 @@ IT 직군 자율&공통 CS 스터디
 |--|--|--|--|--|--|--|--|
 | YeEun    | 게임 클라이언트             | **네트워크**                | 언어<br>(C#, C++)| 자료구조    | OS         | DB             | 디자인패턴 |
 | JeongEun | SW 연구 개발                | **OS**                     | 자료구조         | DB         | 네트워크   | 디자인패턴       | 언어<br>(python, java) |
-| WKkim    | Data Engineer<br>(or else) | ***언어(python, java)***   | DB               | OS         | 네트워크   | 디자인패턴       | 자료구조 | 
 | dy       | 데이터분석<br>금융디지털    | **DB**                      | 언어<br>(python) | 디자인패턴  |           |                 |   |
 | sooo     | backend                    | **자료구조**                | 네트워크         | OS         | 디자인패턴 | DB              | 언어<br>(java) |
 | Honggeun | backend                    | **디패**                    | OS              | 네트워크     |           | 언어<br>(java) |  |
