@@ -7,7 +7,7 @@
 JCF는 몇 가지 interface를 통해서 다양한 collection class를 이용할 수 있도록 설계되어 있다.
 
 <br>
-주요 interface로는 List, Set, Map이 있다. 
+주요 interface로는 `List`, `Set`, `Map`이 있다. 
 이 interface로 사용 가능한 Collection 객체의 종류는 다음과 같다.
 
 
