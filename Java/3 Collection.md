@@ -10,8 +10,7 @@ JCF는 몇 가지 interface를 통해서 다양한 collection class를 이용할
 주요 interface로는 List, Set, Map이 있다. 
 이 interface로 사용 가능한 Collection 객체의 종류는 다음과 같다.
 
-
-![image](https://github.com/DevTechGrowth/study_CS/assets/88030238/4d4c31fc-4b7b-4260-b878-0e6602c27e2b)
+<img src="https://github.com/DevTechGrowth/study_CS/assets/88030238/4d4c31fc-4b7b-4260-b878-0e6602c27e2b" width="80%" height="80%">
 
 List와 Set은 객체를 추가, 삭제, 검색하는 방법에 있어서 공통점이 있다. <br>
 -> 공통된 메소드를 따로 모아 Collection interface로 정의해두고, 이것을 상속하고 있다.  <br>
