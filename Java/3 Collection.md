@@ -89,6 +89,8 @@ JAVA는 널리 알려져 있는 `자료구조`를 바탕으로 객체들을 효�
 ### Properties
 - Hashtable의 자식 클래스
   - Hashtable의 특징을 그대로 가짐
+  - Hashtable : (object, object) 형태로 저장
+  - Properties : (String, String) 형태로 저장
 - key와 value를 String 타입으로 제한한 컬렉션
 - 주로 애플리케이션의 환경설정과 관련된 속성을 저장하는데 사용됨
 - 데이터를 파일로부터 읽고 쓰는 편리한 기능을 제공함
