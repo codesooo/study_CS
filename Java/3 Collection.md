@@ -63,7 +63,6 @@ JAVA는 널리 알려져 있는 `자료구조`를 바탕으로 객체들을 효�
 
 <img src="https://github.com/DevTechGrowth/study_CS/assets/88030238/1a3df694-77fd-4def-9f86-f2a4482d061f" width="40%" >
 
-### SortedSet
 ### TreeSet
 - binary tree를 기반으로 한 Set 컬렉션
 - TreeSet에 객체를 저장하면 다음과 같이 자동으로 정렬됨
