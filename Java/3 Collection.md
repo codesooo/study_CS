@@ -45,19 +45,65 @@ JAVA는 널리 알려져 있는 `자료구조`를 바탕으로 객체들을 효�
 
 <img src="https://github.com/DevTechGrowth/study_CS/assets/88030238/b0b13c00-bcb1-44c6-9c73-028d916c9318" width="40%" height="40%">
 <br>
-<img src="https://github.com/DevTechGrowth/study_CS/assets/88030238/b6077dc4-a8db-47d8-8ca2-9c47f4f5d2a7" width="40%" height="40%">
+<br>
 
 특정 위치에서 객체 삽입,삭제할 때 바로 앞뒤 링크만 변경하면 됨.
 -> 빈번한 객체 삭제,삽입이 일어나는 곳에서 **ArrayList 보다 더 좋은 성능을 발휘**함
+<br>
+
+<img src="https://github.com/DevTechGrowth/study_CS/assets/88030238/b6077dc4-a8db-47d8-8ca2-9c47f4f5d2a7" width="40%" height="40%">
 
 ## Set Collection
+- Set 컬렉션은 저장 순서가 유지되지 않음
+- 객체 중복 저장 불가능
+- 하나의 null만 저장 가능
+
 ### Hashset
+- Set 컬렉션 중 가장 많이 사용됨
+- 다른 객체라도 동일한 객체라고 판단하고 중복 저장하지 않는 경우
+  - hashCode() 메소드의 리턴값이 같고, equals() 메소드가 true를 리턴할 때
+
+<img src="https://github.com/DevTechGrowth/study_CS/assets/88030238/1a3df694-77fd-4def-9f86-f2a4482d061f" width="40%" >
+
 ### SortedSet
 ### TreeSet
+- binary tree를 기반으로 한 Set 컬렉션
+- TreeSet에 객체를 저장하면 다음과 같이 자동으로 정렬됨
+- 부모 노드의 객체와 비교
+  - 왼쪽 자식 노드 : 낮은 것
+  - 오른쪽 자식 노드 : 높은 것
+<img src="https://github.com/DevTechGrowth/study_CS/assets/88030238/d9d65bb0-e00a-433b-a865-e0607dc68a53" width="40%" >
 
 
 ## Map Collection
+- `key`와 `value`으로 구성된 entry 객체를 저장한다.
+  - key, value는 객체
+  - key : 중복 저장 불가능
+  - value : 중복 저장 가능
+- 기존에 저장된 key와 동일한 key로 value를 저장하면 기존의 value는 없어지고 새로운 value로 대치된다.
+
+<img src="https://github.com/DevTechGrowth/study_CS/assets/88030238/bf285f11-f0c6-4e31-90ee-871f9dfdac34" width="40%" height="70%">
+
 ### HashMap
+- 동일 key로 보고 중복 저장을 허용하지 않는 경우
+  - `key`로 사용할 `객체`가 hashCode() 메소드의 리턴값이 같고 equals() 메소드가 true를 리턴할 때
+<img src="https://github.com/DevTechGrowth/study_CS/assets/88030238/1d1162d0-eedc-42dc-abb0-79b5acb37199" width="40%" height="70%">
+
 ### Hashtable
+- HashMap과 동일한 내부구조
+- **동기화된 메소드**로 구성되어 있어 멀티 스레드가 동시에 Hashtable의 메소드들을 실행할 수 없다.<br>
+-> 멀티 스레드 환경에서도 안전하게 객체를 추가, 삭제할 수 있다.
+
 ### Properties
+- Hashtable의 자식 클래스
+  - Hashtable의 특징을 그대로 가짐
+- key와 value를 String 타입으로 제한한 컬렉션
+- 확장자가 `.properties`인 프로퍼티 파일을 읽을 때 사용
+  - 프로퍼티 파일 : `=`기호로 연결되어있는 텍스트 파일
+  
 ### TreeMap
+- binary tree 기반 Map 컬렉션
+- TreeSet과의 차이점 : key와 value가 저장된 Entry를 저장
+- Entry를 저장하면 key를 기준으로 자동 정렬
+  - 왼쪽 자식 노드 : 낮은 것
+  - 오른쪽 자식 노드 : 높은 것
