@@ -34,9 +34,7 @@ JAVA는 널리 알려져 있는 `자료구조`를 바탕으로 객체들을 효�
 
 ### Vector
 - `ArrayList`와 동일한 내부 구조
-    - **`차이점`** : Vector는 동기화된 메소드로 구성되어 있어 멀티 스레드가 동시에 Vector() 메소드를 실행할 수 없다.
-      → 멀티 스레드 환경에서는 안전하게 객체를 추가 or 삭제할 수 있다.
-      
+  
 <img src="https://github.com/DevTechGrowth/study_CS/assets/88030238/404c8875-f791-4f06-a49f-27bfb1813047" width="40%" height="40%">
 
 ### LinkedList
@@ -88,12 +86,6 @@ JAVA는 널리 알려져 있는 `자료구조`를 바탕으로 객체들을 효�
 - 동일 key로 보고 중복 저장을 허용하지 않는 경우
   - `key`로 사용할 `객체`가 hashCode() 메소드의 리턴값이 같고 equals() 메소드가 true를 리턴할 때
 <img src="https://github.com/DevTechGrowth/study_CS/assets/88030238/1d1162d0-eedc-42dc-abb0-79b5acb37199" width="40%" height="70%">
-
-### Hashtable
-- HashMap과 동일한 내부구조
-- **동기화된 메소드**로 구성되어 있어 멀티 스레드가 동시에 Hashtable의 메소드들을 실행할 수 없다.<br>
--> 멀티 스레드 환경에서도 안전하게 객체를 추가, 삭제할 수 있다.
-
 
 ### Properties
 - Hashtable의 자식 클래스
