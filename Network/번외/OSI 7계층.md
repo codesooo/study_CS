@@ -1,4 +1,4 @@
-# OSI 7 계층 & TCP/IP 4계층
+# OSI 7 계층
 ![Alt text](../images/7layer.png)
 
 ## OSI 7계층
