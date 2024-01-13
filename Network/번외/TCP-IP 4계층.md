@@ -24,11 +24,13 @@
 - HTTP, FTP, SMTP 등..
 - 장비 : 앱 등
 
-# 웹 동작 방식 (만약, www.naver.com을 검색 했다면?)
+## 웹 동작 방식 (만약, www.naver.com을 검색 했다면?)
 ![Alt text](image-1.png)
 
-1. 우리 브라우저는 www.naver.com의 주소(IP)를 모른다. (이 과정에서, DNS 서버는 DNS Query를 통한 네이버 주소를 가져온다.)
+1. 우리 브라우저는 www.naver.com의 주소(IP)를 모른다. 따라서, DNS 서버에 해당 도메인의 IP주소를  요청한다. (DNS 서버에서 요청에 도메인에 대한 캐싱이 되어있으면, 해당 아이피를 반환하고, 그렇지 않으면 DNS Query를 통한 네이버 주소를 가져온다.)
 2. DNS 서버로부터 IP주소를 얻어 온다.
-3. TCP 연결을 맺고, TCP Connection을 생성한다.
-4. TCP를 통한 데이터를 송수신 한다.
-5. TCP 연결을 끊는다.
+3. TCP 연결을 맺고, TCP Connection을 생성한다. (3-way-hand-shaking)
+4. 클라이언트(=브라우저)는 HTTP 프로코톨을 통해 데이터를 요청한다.
+5. 서버는 클라이언트 요청에 대한 응답을 반환한다. (ex: html, css, javascript)
+6. 브라우저는 얻어온 데이터를 렌더링 한다.
+7. 필요에 따라 TCP Connection을 해제한다.
