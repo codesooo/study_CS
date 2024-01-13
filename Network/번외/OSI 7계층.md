@@ -67,3 +67,11 @@
 <br/>
 
 ![Alt text](../images/protocol.png)
+
+- 1 계층 : 케이블을 활용한 신호 전달 책임 (bit)
+- 2 계층 : 하나의 네트워크 내에서 데이터 전달 책임 (Frame)
+- 3 계층 : 네트워크 간의 데이터 전달 책임 (Packet)
+- 4 계층 : 신뢰성 있는 데이터 전달 책임 (TCP/UDP Header)
+- 5 계층 : Application 간의 지속적인 연결에 대한 책임 (Session ID)
+- 6 계층 : Application 간의 상호간의 데이터 형식에 대한 책임 (MPEG, JPEG)
+- 7 계층 : Applicaiton 서비스를 제공하기 위한 책임 (HTTP, FTP)
