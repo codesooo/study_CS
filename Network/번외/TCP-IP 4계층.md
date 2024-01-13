@@ -17,7 +17,6 @@
 ### <span style='color:#33ccff;'>3계층 (Transport Layer)</span>
 - 종단간 통신을 관리
 - TCP/UDP : 연결지향(TCP) 및 비연결지향(UDP) 관련 통신 프로토콜
-- 장비 : L3 스위치, 라우터
 
 ### <span style='color:#33ccff;'>4계층 (Application Layer)</span>
 - 최종 사용자에게 서비스를 제공하는 계층
